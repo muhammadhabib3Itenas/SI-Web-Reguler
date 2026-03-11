@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+span.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    border: 1px solid black;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+tr.baris-1 td:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+tr.baris-2 td:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+tr.baris-3 td:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+tr.baris-4 td:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+tr.baris-5 td:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
